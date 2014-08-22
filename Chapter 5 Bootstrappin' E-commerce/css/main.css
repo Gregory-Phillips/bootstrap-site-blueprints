@@ -6561,6 +6561,103 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   height: 360px;
   overflow: hidden;
 }
+.grid-options {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border-color: #dddddd;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.grid-options > .list-group {
+  margin-bottom: 0;
+}
+.grid-options > .list-group .list-group-item {
+  border-width: 1px 0;
+}
+.grid-options > .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.grid-options > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+.grid-options > .table,
+.grid-options > .table-responsive {
+  margin-bottom: 0;
+}
+.grid-options > .panel-body + .table,
+.grid-options > .panel-body + .table-responsive {
+  border-top: 1px solid #dddddd;
+}
+.grid-options > .table-bordered,
+.grid-options > .table-responsive > .table-bordered {
+  border: 0;
+}
+.grid-options > .table-bordered > thead > tr > th:first-child,
+.grid-options > .table-responsive > .table-bordered > thead > tr > th:first-child,
+.grid-options > .table-bordered > tbody > tr > th:first-child,
+.grid-options > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+.grid-options > .table-bordered > tfoot > tr > th:first-child,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+.grid-options > .table-bordered > thead > tr > td:first-child,
+.grid-options > .table-responsive > .table-bordered > thead > tr > td:first-child,
+.grid-options > .table-bordered > tbody > tr > td:first-child,
+.grid-options > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+.grid-options > .table-bordered > tfoot > tr > td:first-child,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+.grid-options > .table-bordered > thead > tr > th:last-child,
+.grid-options > .table-responsive > .table-bordered > thead > tr > th:last-child,
+.grid-options > .table-bordered > tbody > tr > th:last-child,
+.grid-options > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+.grid-options > .table-bordered > tfoot > tr > th:last-child,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+.grid-options > .table-bordered > thead > tr > td:last-child,
+.grid-options > .table-responsive > .table-bordered > thead > tr > td:last-child,
+.grid-options > .table-bordered > tbody > tr > td:last-child,
+.grid-options > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+.grid-options > .table-bordered > tfoot > tr > td:last-child,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+.grid-options > .table-bordered > thead > tr:last-child > th,
+.grid-options > .table-responsive > .table-bordered > thead > tr:last-child > th,
+.grid-options > .table-bordered > tbody > tr:last-child > th,
+.grid-options > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+.grid-options > .table-bordered > tfoot > tr:last-child > th,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+.grid-options > .table-bordered > thead > tr:last-child > td,
+.grid-options > .table-responsive > .table-bordered > thead > tr:last-child > td,
+.grid-options > .table-bordered > tbody > tr:last-child > td,
+.grid-options > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+.grid-options > .table-bordered > tfoot > tr:last-child > td,
+.grid-options > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  border-bottom: 0;
+}
+.grid-options > .panel-heading {
+  color: #454545;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+.grid-options > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #dddddd;
+}
+.grid-options > .panel-heading > .dropdown .caret {
+  border-color: #454545 transparent;
+}
+.grid-options > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #dddddd;
+}
+.grid-options > h2 {
+  padding-top: 25.5px;
+  line-height: 1.2;
+  color: #454545;
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
