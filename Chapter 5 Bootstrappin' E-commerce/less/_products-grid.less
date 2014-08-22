@@ -68,25 +68,23 @@
         margin-top: 12px;
         color: @gray-dark;
     }
-}
-
-.options-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-li {
-    a {
-        .btn;
-        .btn-sm;
+    .options-list {
+        list-style-type: none;
         padding-left: 0;
-        padding-right: 0;
-        color: @gray;
-    }
-    &:hover,
-    &:focus,
-    &:active,
-    .active & {
-        color: @link-color;
+        li {
+            a {
+                .btn;
+                .btn-sm;
+                padding-left: 0;
+                padding-right: 0;
+                color: @gray;
+                &:hover,
+                &:focus,
+                &:active,
+                .active & {
+                    color: @link-color;
+                }
+            }
+        }
     }
 }
