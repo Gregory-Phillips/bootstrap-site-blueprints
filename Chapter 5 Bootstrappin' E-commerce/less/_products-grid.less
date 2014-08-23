@@ -67,6 +67,7 @@
         line-height: 1.2;
         margin-top: 12px;
         color: @gray-dark;
+        max-width: 480px;
     }
     .options-list {
         .make-row();
@@ -74,6 +75,9 @@
         padding-left: 0;
         li {
             .make-xs-column(6);
+            @media screen and (max-width: @screen-xs-max) {
+                .make-xs-column (4);
+            }
             a {
                 .btn;
                 .btn-sm;
