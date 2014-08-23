@@ -6690,8 +6690,38 @@ footer[role="contentinfo"] ul.social > li > a:hover {
   color: #454545;
 }
 .grid-options .options-list {
+  margin-left: -15px;
+  margin-right: -15px;
   list-style-type: none;
   padding-left: 0;
+}
+.grid-options .options-list:before,
+.grid-options .options-list:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.grid-options .options-list:after {
+  clear: both;
+}
+.grid-options .options-list:before,
+.grid-options .options-list:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.grid-options .options-list:after {
+  clear: both;
+}
+.grid-options .options-list li {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .grid-options .options-list li a {
   display: inline-block;
