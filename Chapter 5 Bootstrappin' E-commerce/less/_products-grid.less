@@ -84,6 +84,25 @@
                 .active & {
                     color: @link-color;
                 }
+            // from font-awesome/core.less
+                &:before {
+                    display: inline-block;
+                    font-family: FontAwesome;
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    content: @fa-var-square-o;
+                    width: (18em / 14);
+                    text-align: center;
+                }
+                &:hover:before,
+                &:focus:before,
+                &:active:before,
+                .active &:before {
+                    content: @fa-var-check-square-o;
+                }
             }
         }
     }

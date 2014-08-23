@@ -6753,6 +6753,24 @@ fieldset[disabled] .grid-options .options-list li a {
 .active .grid-options .options-list li a {
   color: #3e7dbd;
 }
+.grid-options .options-list li a:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f096";
+  width: 1.28571429em;
+  text-align: center;
+}
+.grid-options .options-list li a:hover:before,
+.grid-options .options-list li a:focus:before,
+.grid-options .options-list li a:active:before,
+.active .grid-options .options-list li a:before {
+  content: "\f046";
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
